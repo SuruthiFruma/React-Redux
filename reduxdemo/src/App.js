@@ -3,7 +3,7 @@
 import { useSelector,useDispatch } from 'react-redux';
 import { addItem, incrementAsync } from './store/slice';
 function App() {
-  const count=useSelector(store=>store.car.item)
+  const count=useSelector(store=>store.cart.item)
   console.log("final count",count)
   const dispatch= useDispatch()
    const hanldeAsync=()=>{
